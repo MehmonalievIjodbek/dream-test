@@ -1,0 +1,15 @@
+export const API_ENDPOINTS = {
+  BLOG: "/posts",
+  IMAGES: "?populate[image][fields][1]=url",
+  LOGO: "?populate[logo][fields][1]=url",
+  CONTACT: "/contact",
+  PRODUCT: "/products",
+  CATEGORY: "/categories",
+  BRAND: "/brands",
+  STATISTIC: "/stat",
+  PARTNER: "/partners",
+  LANG: "&locale=",
+  FIRST_LANG: "?locale=",
+  CREATE_MESSAGE: "/applications",
+  POST_APPLICATION: "/product-applications",
+};

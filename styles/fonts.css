@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Intro-Inline";
+  src: url("../public/fonts/Intro/Intro_Inline.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Intro";
+  src: url("../public/fonts/Intro/Intro.otf") format("truetype");
+}
+
+:where(.css-dev-only-do-not-override-txh9fw).ant-btn-primary {
+  background-color: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
